@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&display=swap');
+
+/*1180x775 mobile app*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    background-color:#fefff5;
+}
+
+.page {
+    margin: 0.5em 3em;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 2em 0;
+    gap: 3em;
+}
+/* navbar */
+
+.logo {
+    font-family: Poppins;
+    color: #0d5c7b;
+    letter-spacing: 1px;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding-bottom: 3em;
+}
+
+.search-icon {
+    width: 1.3em;
+    height: auto;
+    align-self: center;
+}
+
+.cart-icon {
+    width: 2em;
+    flex: 0 1 auto;
+}
+
+.left-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex: 1 0 auto;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.searchbar {
+    margin-left: 10px;
+    width: auto;
+    height: 2.5em;
+    display: flex;
+    padding: 0 10px;
+    border: solid #0d5c7b 3px;
+    border-radius: 10px;
+    gap: 10px;
+    flex: 1 0 auto;
+}
+
+input:focus {
+    outline: none;
+    align-self: center;
+}
+
+.search-text {
+    font-size: 15px;
+    border: none;
+    height: 2em;
+    align-self: center;
+}
+
+.log-in {
+    padding: 0 16px;
+    border: solid #0d5c7b 3px;
+    border-radius: 10px;
+    height: 3em;
+    align-items: center;
+    cursor: pointer;
+    font-family: Poppins;
+    color: #0d5c7b;
+    font-size: 15px;
+}
+
+.sign-up {
+    padding: 0 16px;
+    border: solid #0d5c7b 3px;
+    border-radius: 10px;
+    height: 3em;
+    align-items: center;
+    cursor: pointer;
+    font-family: Poppins;
+    color: #fefff5;
+    font-size: 15px;
+    background-color: #0d5c7b;
+}
+
+.banner-box {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: end;
+    margin: 1em 0 0 2em;
+}
+
+.banner {
+    width: 78vw;
+}
+
+/* Left side */
+.left {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-width: 220px;
+    border: solid 1px rgb(218, 218, 218);
+    box-shadow: var(--NN500,rgba(141,150,170,0.4)) 0px 1px 6px 0px;
+    border-radius: 20px;
+    flex: 0 0 0;
+}
+
+.left-top-title {
+    border-radius: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.arrow-up {
+    width: 1.3em;
+    border-radius: inherit;
+}
+
+.categories-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: inherit;
+}
+
+.category
+
+.cate-ul {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 0;
+    border-bottom: solid 1px rgb(190, 190, 190);
+}
+
+li {
+    width: 100%;
+    list-style: none;
+    margin: 5px;
+    font-size: 19px;
+    height: 34px;
+    white-space: nowrap;
+}
+
+.wallet-title {
+    font-size: 1.5em;
+
+    font-weight: bold;
+    border-radius: inherit;
+}
+
+.wallet {
+    border-radius: inherit;
+
+}
+
+.paypal {
+    margin-top: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 0;
+    border: solid 3px #253B80;
+    border-radius: inherit;
+}
+
+.paypal-logo {
+    width: 8em;
+}
+
+.banner-box {
+    margin: 0;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    flex: 1 1 0;
+}
+
+
+
+
+
+
+
